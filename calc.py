@@ -43,7 +43,7 @@ elif op == "tan":
     result = math.tan(a * math.pi / 180)
 
 elif op == "cot":
-    result = math.cot(a * math.pi / 180)
+    result = 1/(math.tan(a * math.pi / 180))
 
 elif op == "factorial":
     if a >= 0:
